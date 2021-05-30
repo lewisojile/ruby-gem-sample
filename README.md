@@ -1,8 +1,16 @@
 # Foodie
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/foodie`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to my foodie gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/foodie`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+## Build locally
+Run the command: 'bundle install --deployment'
+NB: Command requires a .gemspec manifest in the projects root
+The above command should download all dependencies into ./vendor/bundle directory
+
+## Locate dependencies
+You can find all dependencies and their associated .gemspec manifest files in the directories below
+dependencies : ./vendor/bundle/ruby/{version of ruby}/gems
+dependency .gemspec manifest files : ./vendor/bundle/ruby/{version of ruby}/specifications
 
 ## Installation
 
