@@ -10,7 +10,7 @@ Welcome to my foodie gem! In this directory, you'll find the files you need to b
 ## Locate dependencies
 - You can find all dependencies and their associated .gemspec manifest files in the directories below
 - Dependencies : ./vendor/bundle/ruby/{version of ruby}/gems
-- Dependency .gemspec manifest files : ./vendor/bundle/ruby/{version of ruby}/specifications
+- Manifests (.gemspec) : ./vendor/bundle/ruby/{version of ruby}/specifications
 
 ## Installation
 
