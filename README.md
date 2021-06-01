@@ -1,7 +1,6 @@
 # Foodie Sample Gem
 
-Welcome to my foodie gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/foodie`. To experiment with that code, run `bin/console` for an interactive prompt.
-
+Welcome to my foodie gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem.
 ## Build locally
 - Run the command: 'bundle install --deployment'
 - NB: Command requires a .gemspec manifest in the projects root
