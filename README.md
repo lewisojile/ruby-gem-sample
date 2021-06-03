@@ -2,9 +2,9 @@
 
 Welcome to my foodie gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem.
 ## Build locally
-- Run the command: 'bundle install --deployment'
+- Run the command: 'bundle config set --local path 'vendor/bundle' && bundle install && bundle exec rake install'
 - NB: Command requires a .gemspec manifest in the projects root
-- Also run 'bundle exec rake install' to install this gem onto your local machine (requires a RakeFile in the projects root directory)
+
 - The above command should download all dependencies into ./vendor/bundle directory
 
 ## Locate dependencies
